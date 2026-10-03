@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 // Set VITE_API_URL when the API is not running on the local development port.
-const API_BASE_URL = import.meta.env.VITE_API_URL || 'http://localhost:5000/api';
+const API_BASE_URL = import.meta.env.VITE_API_URL || 'https://apiretalwebsite123.herositepro.com/api';
 
 // Uploaded images are served from the API's origin, not under /api itself
 // (see server.js's `/uploads` static mount) — strip the /api suffix so
